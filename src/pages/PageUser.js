@@ -30,6 +30,7 @@ function PageUser() {
 
   return (
     <div className="container">
+      <h1>Halaman List Customer</h1>
       <div className="row m-2">
         {data?.map((data) => {
           return (
