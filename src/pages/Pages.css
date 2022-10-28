@@ -1,0 +1,22 @@
+#status {
+    position: relative;
+    text-align: center;
+    cursor: default;
+    transition: 0.5s ease;
+  }
+  #status .indicator {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -45px;
+    transform: translateY(-50%);
+  }
+  #status .indicator.online {
+    background-color: #39cb58;
+  }
+  #status .indicator.offline {
+    background-color: #f00;
+  }
